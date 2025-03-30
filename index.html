@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Réplica Netflix</title>
+        <link rel="stylesheet" href="style/animate.css">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <link rel="stylesheet" href="style/footer.css">
+        
+
+        <!--Fonte Bebas Neue -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <!--Owl Css -->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="logo">TAVAFLIX</h2>
+                <nav class="menu">
+                    <a href="#home">Inicio</a>
+                    <a href="#recomendados">Assista Também</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="filme-principal" id="#home">
+                <div class="container">
+                    <h3 class="titulo">RICK AND MORTY</h3>
+                    <p class="descricao">Uma série animada que segue as façanhas de um super cientista e seu neto não tão brilhante.</p>
+
+                    <div class="botoes">
+                        <button role="button" class="botao" onclick="window.open('https://youtu.be/iO_BD5UhDfM', '_blank')">
+                            <i class="fa-solid fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+        
+                        <button role="button" class="botao" onclick="window.open('https://pt.wikipedia.org/wiki/Rick_and_Morty')">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                </div>                
+            </div>
+        </main>
+
+        <div class="carrossel" id="recomendados">
+            </br>
+            <h3 class="titulo" style="margin-left: 30px;">ASSISTA TAMBÉM:</h3>
+            </br>
+            <div class="owl-carousel owl-theme">
+                <div class="item" onclick="window.open('https://youtu.be/KaNlgu3IojY')">
+                    <img class="box-filme" src="img/carrossel/media01.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/rQvIR1oL1vE')">
+                    <img class="box-filme" src="img/carrossel/media02.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/9s-5cfGANO0')">
+                    <img class="box-filme" src="img/carrossel/media03.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/FHwZXAvz5GA')">
+                    <img class="box-filme" src="img/carrossel/media04.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/fKHjy7FTYYE')">
+                    <img class="box-filme" src="img/carrossel/media05.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/Aoulu1YDw5I')">
+                    <img class="box-filme" src="img/carrossel/media06.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/wLdIzBuHYFI')">
+                    <img class="box-filme" src="img/carrossel/media07.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/d77TCq35Dps')">
+                    <img class="box-filme" src="img/carrossel/media08.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/IjuQX9w79Rs')">
+                    <img class="box-filme" src="img/carrossel/media09.jpg" alt="" srcset="">
+                </div>
+
+                <div class="item" onclick="window.open('https://youtu.be/Whll-MeYiZs')">
+                    <img class="box-filme" src="img/carrossel/media10.jpg" alt="" srcset="">
+                </div>
+
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-links">
+                    <a href="mailto:contato@tavaresj.com.br">Contato</a>
+                </div>
+                <div class="footer-info">
+                    <p>Projeto de Estudo com HTML, CSS e JavaScript</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/cstavaresj" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/cstavaresj" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/970739e68e.js" crossorigin="anonymous"></script>
+
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+        <script src="js/animate.js"></script>
+
+    </body>
+</html>
