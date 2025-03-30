@@ -28,7 +28,7 @@ Recriação da interface da Netflix usando **HTML5**, **CSS3** e **JavaScript**,
 ---
 
 ## ▶️ Como Executar
-1. Acesse online: [TavaFlix Live](https://tavaresj.com.br/tavaflix/)
+1. Acesse online: [TavaFlix](https://tavaresj.com.br/tavaflix/)
    
 Ou:
 ```bash
