@@ -1,4 +1,6 @@
 # Tavaflix
+![image](https://github.com/user-attachments/assets/861ce486-7f1e-44d5-a18e-d1883d0df120)
+![image](https://github.com/user-attachments/assets/a3ee4c6d-a265-4b49-9784-f668505b6040)
 
 Disponível em: https://tavaresj.com.br/tavaflix/
 
