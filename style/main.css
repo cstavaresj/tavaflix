@@ -44,7 +44,7 @@ header nav a:hover{
 /* Principal */
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/Rickandmorty/rick.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('./img/Rickandmorty/rick.jpg');
     background-size: cover;
     height: 500px;
     display: flex;
